@@ -1,0 +1,12 @@
+Nombre de la tabla: Libros
+
+Campos de la tabla: 
+ID_Libro, Integer. Este campo sería la clave primaria porque garantiza que cada libro en la tabla tenga un identificador único. Esto es esencial para la integridad de la base de datos, ya que permite diferenciar de manera precisa cada entrada y establece relaciones con otras tablas (por ejemplo, si se desea relacionar los préstamos de libros con los usuarios).
+
+Titulo, Text. Almacenará el título del libro. 
+
+Autor, Text. Contendrá el nombre del autor del libro. 
+
+Fecha_Publicacion, Date. Registrará la fecha en que el libro fue publicado.  
+
+Genero, Text. Indicará el género del libro (por ejemplo, ficción, no ficción, ciencia ficción, etc.). 
